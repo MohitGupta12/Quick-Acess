@@ -1,7 +1,7 @@
 {
   "name": "Quick Access",
   "description": "It gives quick access to your important links",
-  "version": "0.0",
+  "version": "0.1",
   "manifest_version": 3,
    "action": {
     "default_popup": "src/index.html"
