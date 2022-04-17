@@ -5,6 +5,7 @@ body{
     width: 384px;
     font-family: 'exo';
     font-size: 14px;
+    color: #171e31;
     background: #d3ecec;
 }
 
@@ -13,8 +14,7 @@ h1{
     font-size: 25px;
     font-weight: 400;
     margin: 0;
-    // color: rgb(236, 20, 64);
-    color: #00BBF9;
+    color: #2e91b3;
 }
 
 
@@ -36,21 +36,40 @@ h1{
 .model_content{
 
     padding: 1rem .5rem ;
+
+
     
+    .brac_name{
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+
     .links{
         padding: 15px 10px;
         display: flex;
         justify-content: space-between;
-        
-    .link{
-        font-family:'exo';
-        font-weight: 600;
-        a:link, a:visited{
-            color: #191E2E;
-            outline: 0;
-            text-decoration: none;
+
+        .link{
+            font-family:'exo';
+            font-weight: 500;
+            opacity: 1;
+            transition: opacity 0.2s ease-in;
+
+            a{
+                color: #191E2E;
+                text-decoration: none;
+                opacity: 1;
+                transition: opacity 0.2s ease-in;
+            }
+            
         }
-    }
+        .link:hover{
+            a{
+                color: #000;
+                opacity: 0.6;
+            }
+        }
+        
 }
 }
 

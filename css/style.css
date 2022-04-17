@@ -5,6 +5,7 @@ body {
   width: 384px;
   font-family: 'exo';
   font-size: 14px;
+  color: #171e31;
   background: #d3ecec;
 }
 
@@ -13,8 +14,7 @@ h1 {
   font-size: 25px;
   font-weight: 400;
   margin: 0;
-  color: #00BBF9;
-  
+  color: #2e91b3;
 }
 
 .model_header {
@@ -41,6 +41,11 @@ h1 {
   padding: 1rem .5rem;
 }
 
+.model_content .brac_name {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
 .model_content .links {
   padding: 15px 10px;
   display: -webkit-box;
@@ -53,12 +58,22 @@ h1 {
 
 .model_content .links .link {
   font-family: 'exo';
-  font-weight: 600;
+  font-weight: 500;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
 }
 
-.model_content .links .link a:link, .model_content .links .link a:visited {
+.model_content .links .link a {
   color: #191E2E;
-  outline: 0;
   text-decoration: none;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+}
+
+.model_content .links .link:hover a {
+  color: #000;
+  opacity: 0.6;
 }
 /*# sourceMappingURL=style.css.map */
