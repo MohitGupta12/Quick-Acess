@@ -34,20 +34,22 @@ h1 {
   font-size: 15px;
   padding: 0 10px;
   text-align: center;
-  border-bottom: 1px solid #08254d;
+  border-bottom: 2px solid #08254d;
 }
 
-.model_content {
+.container {
   padding: 1rem .5rem;
+  margin-bottom: .5rem;
+  border-bottom: .5px solid #08254d5d;
 }
 
-.model_content .brac_name {
+.container .brac_name {
   font-size: 1.5em;
   font-weight: 700;
 }
 
-.model_content .links {
-  padding: 15px 10px;
+.container .links {
+  padding: 15px 0 10px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,7 +58,7 @@ h1 {
           justify-content: space-between;
 }
 
-.model_content .links .link {
+.container .links .link {
   font-family: 'exo';
   font-weight: 500;
   opacity: 1;
@@ -64,7 +66,7 @@ h1 {
   transition: opacity 0.2s ease-in;
 }
 
-.model_content .links .link a {
+.container .links .link a {
   color: #191E2E;
   text-decoration: none;
   opacity: 1;
@@ -72,7 +74,7 @@ h1 {
   transition: opacity 0.2s ease-in;
 }
 
-.model_content .links .link:hover a {
+.container .links .link:hover a {
   color: #000;
   opacity: 0.6;
 }
