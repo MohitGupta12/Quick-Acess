@@ -6,6 +6,8 @@
 }
 
 body{
+    // height: 350px;
+    width: 450px;
     display: flex;
     padding: 10px;
     justify-content: center;
@@ -21,6 +23,46 @@ body{
     margin: 15px;
     border-radius: 10px;
 
+    .preview{
+        padding: 10px 20px;
+        margin: 5px;
+        border: 2px solid #1ab0b8;
+        border-radius: 10px;
+
+        .brac_name{
+            font-size: 1.5em;
+            font-weight: 700;
+        }
+
+        .links{
+            padding: 15px 0 10px 10px;
+            display: flex;
+            justify-content: space-between;
+
+            .link{
+                font-family:'exo';
+                font-weight: 500;
+                opacity: 1;
+                transition: opacity 0.2s ease-in;
+
+                a{
+                    color: #191E2E;
+                    text-decoration: none;
+                    opacity: 1;
+                    transition: opacity 0.2s ease-in;
+                }
+                
+            }
+            .link:hover{
+                a{
+                    color: #000;
+                    opacity: 0.6;
+                }
+            }
+        }
+        
+    }
+
     .upper_secs{
         padding: 10px 20px;
         margin: 5px;
@@ -31,15 +73,15 @@ body{
             margin: 5px auto;
             // background-color: #278a60;
 
-        .title_label{
-            font-size: 20px;
-            font-weight: 500;
-        }
+            .title_label{
+                font-size: 17px;
+                font-weight: 400;
+            }
 
-        .no_links{
-            font-size: 20px;
-            font-weight: 500;
-        }
+            .no_links{
+                font-size: 17px;
+                font-weight: 400;
+            }
         }
 
     }
@@ -47,9 +89,31 @@ body{
     .lower_secs{
         padding: 10px 20px;
         margin: 5px;
-        margin-top: 10px;
         border: 2px solid #1ab0b8;
         border-radius: 10px;
+
+        p{
+            font-size: 20px;
+            font-weight: 500;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        .input_box{
+            margin-bottom: 5px;
+            // background-color: #278a60;
+
+            .name{
+                font-size: 17px;
+                font-weight: 400;
+            }
+
+            .link_url{
+                font-size: 17px;
+                font-weight: 400;
+            }
+        }
+
     }
 
 
