@@ -5,51 +5,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/option.css">
     <title>Quick Access's Option</title>
 </head>
 
 <body>
     <h1>Quick Access's Option</h1>
-    <div class="outter_cont">
+    <div class="outer_cont">
         <form action="#">
-            <div class="input_box">
-                <span class="title">
-                    Title:
-                </span>
-                <input type="text" placeholder="Enter title of section">
-            </div>
-            <div class="input_box">
-                <span class="no_links">
-                    Number of Links:
-                </span>
-                <input type="number" placeholder="Enter number of links" max="8"
-                    min="1">
-            </div>
-            <p>Links</p>
-            <div class="input_box">
-                <div class="links">
-                    Link:
-                </div>
+            <div class="upper_secs">
 
                 <div class="input_box">
-                    <span class="link_name">
-                        Name:
-                    </span>
-                    <input type="text" placeholder="Enter name of link">
+                    <label for="title" class="title_label">
+                        Title:
+                    </label>
+                    <input type="text" id="title"
+                        placeholder="Enter title of section">
                 </div>
-
                 <div class="input_box">
-                    <span class="link_url">
-                        Link Url:
-                    </span>
-                    <input type="url" placeholder="Enter Url of link">
+                    <label for="no_link" class="no_links">
+                        Number of Links:
+                    </label>
+                    <input type="number" id="no_link"
+                        placeholder="Enter number of links" max="6" min="1">
+                </div>
+
+            </div>
+            <div class="lower_secs">
+
+                <p>Links</p>
+
+
+                <div class="link">
+
+                    <div class="input_box">
+                        <label for="link_name" class="name">
+                            Link Name:
+                        </label>
+                        <input type="text" id="link_name"
+                            placeholder="Enter name of link">
+                    </div>
+
+                    <div class="input_box">
+                        <label for="link_url" class="link_url">
+                            Link Url:
+                        </label>
+                        <input type="url" id="link_url"
+                            placeholder="Enter url of link">
+                    </div>
+
                 </div>
 
 
+                <button class="add_btn2"> + </button>
             </div>
 
         </form>
     </div>
+
+
+    <script src="option.js"></script>
 
 </body>
 
