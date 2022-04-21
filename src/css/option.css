@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'exo';
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: linear-gradient(135deg, #278a60, #1ab0b8);
+}
+
+.outer_cont {
+  width: 90%;
+  background: #fff;
+  padding: 15px 20px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.outer_cont .upper_secs {
+  padding: 10px 20px;
+  margin: 5px;
+  border: 2px solid #1ab0b8;
+  border-radius: 10px;
+}
+
+.outer_cont .upper_secs .input_box {
+  margin: 5px auto;
+}
+
+.outer_cont .upper_secs .input_box .title_label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.outer_cont .upper_secs .input_box .no_links {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.outer_cont .lower_secs {
+  padding: 10px 20px;
+  margin: 5px;
+  margin-top: 10px;
+  border: 2px solid #1ab0b8;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=option.css.map */
