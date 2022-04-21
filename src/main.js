@@ -1,6 +1,7 @@
 
 const modelContent = document.querySelector(".model_content")
-document.getElementById("add_btn").addEventListener('click', addCont);
+const addBtn = document.getElementById("add_btn");
+addBtn.addEventListener('click', addCont);
 
 function addCont() {
     const newDiv = document.createElement("div");
@@ -29,9 +30,6 @@ function addCont() {
         links.appendChild(link);
     }
 
-
-
-    
     newDiv.appendChild(brac_name);
     newDiv.appendChild(links);
 
